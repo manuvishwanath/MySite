@@ -1,0 +1,28 @@
+.aboutContainer {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+li a {
+    color: black;
+    margin: 2px, 0px;
+    text-align: initial;
+}
+
+p {
+    text-align: initial;
+    margin-left: 8px;
+}
+
+.skillItem {
+    margin-bottom: 10px;
+    width: 40vw;
+}
+
+.aboutContainer:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.marginY {
+    margin: 20px 2px;
+}
