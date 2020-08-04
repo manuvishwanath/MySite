@@ -8,7 +8,7 @@ const AboutMyself = () => {
             <Card>
                 <Card.Body>
                     <Row>
-                        <Col xs={6}>
+                        <Col s={12} lg={6}>
                             <div>
                                 <h3 style={{ margin: "20px 10px" }}>About Me:</h3>
                                 <p>
@@ -19,16 +19,15 @@ const AboutMyself = () => {
                                 </p>
                             </div>
                         </Col>
-                        <Col xs={6}>
+                        <Col xs={12} s={12} lg={6}>
                             <Card className="aboutContainer">
-
                                 <Card.Body>
                                     <Row >
                                         <div className="skillItem"><p>Self Learning</p>
                                             <ProgressBar now={90} striped variant="info" animated label="90%" />
                                         </div>
                                     </Row>
-                                    <Row>
+                                    <Row >
                                         <div className="skillItem"><p>Time Management</p>
                                             <ProgressBar now={90} striped variant="info" animated label="90%" />
                                         </div>

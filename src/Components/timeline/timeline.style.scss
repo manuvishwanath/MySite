@@ -43,7 +43,6 @@ body {
 .fullwidth {
     width: 100%;
     padding-top: 4rem;
-    background-color: lighten($dark, 90%);
 }
 
 //======= timeline for centering
@@ -74,6 +73,7 @@ body {
     clear: both;
     margin-top: -1rem;
     text-align: initial;
+    padding: 10px;
 
     @include tablet {
         width: 100%;
@@ -81,7 +81,9 @@ body {
         margin-top: 0;
         margin-bottom: 3rem;
     }
-
+    &:hover {
+        box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+    }
     // the circle on the timeline
     &:before {
         content: "";

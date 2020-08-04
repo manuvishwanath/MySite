@@ -20,13 +20,10 @@ export const myEducation = [
         }
     },
     {
-        text: 'High School',
+        degree: 'High School',
         university: 'Karnataka Secondary Education Board',
         location: 'The New Cambridge High School',
-        category: {
-            tag: 'medium',
-            color: '#018f69'
-        }
+
     }
 ]
 

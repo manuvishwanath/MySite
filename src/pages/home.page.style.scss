@@ -16,7 +16,7 @@ p {
 
 .skillItem {
     margin-bottom: 10px;
-    width: 40vw;
+    width: 100%;
 }
 
 .aboutContainer:hover {
@@ -25,4 +25,8 @@ p {
 
 .marginY {
     margin: 20px 2px;
+}
+
+.MakesMeTick {
+    background-image: linear-gradient(179.5deg, rgba(255, 230, 69, 1) 3.3%, rgba(255, 157, 73, 1) 96%);
 }

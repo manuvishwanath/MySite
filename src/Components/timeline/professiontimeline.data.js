@@ -3,7 +3,7 @@ const myWork = [
         name: 'Ametek Instruments Pvt Ltd',
         date: 'May 2018 to May 2020',
         dvsn: 'SPECTRO',
-        desc: 'An electro-mechanical company, where client specific devices' +
+        desc: 'An electro-mechanical company, where client specific devices ' +
             'are created for material testing',
         domain: 'electro-mechanical'
     },
@@ -11,8 +11,8 @@ const myWork = [
         name: 'Accenture Technologies limited',
         date: 'April 2016 to Dec 2017',
         dvsn: 'Roche',
-        desc: 'An medical devices company, creating devices for medical researches' +
-            'and general public use.(You know the Accu Check blood sugar monitor device)',
+        desc: 'An medical devices company, creating devices for medical researches ' +
+            'and general public use.(You know the Accu-Check blood sugar monitor device)',
         domain: 'Medical Devices'
     },
     {
